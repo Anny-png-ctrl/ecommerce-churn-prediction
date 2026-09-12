@@ -5,8 +5,10 @@ will churn, and gives a business recommendation for retaining at-risk
 customers. Built as a Streamlit web application backed by a trained
 scikit-learn model.
 
-**Live app:** _add your deployed Streamlit Cloud URL here_
-**Video/demo:** _optional_
+**Live app:** https://ecommerce-churn-prediction-vym2kejtfbsm8h8we6tmtc.streamlit.app
+**GitHub repo:** https://github.com/Anny-png-ctrl/ecommerce-churn-prediction
+**Project report:** [docs/Project_Report.docx](docs/Project_Report.docx)
+**Presentation:** [docs/Presentation.pptx](docs/Presentation.pptx)
 
 ## 1. Business problem
 
