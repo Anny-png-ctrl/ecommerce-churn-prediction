@@ -211,7 +211,9 @@ if st.button("Predict churn risk", type="primary"):
         )
 
     with st.expander("See input data sent to the model"):
-        st.dataframe(input_df.T.rename(columns={0: "value"}))
+        display_df = input_df.T.rename(columns={0: "value"})
+        display_df["value"] = display_df["value"].astype(str)
+        st.dataframe(display_df)
 
 st.markdown("---")
 st.caption(
